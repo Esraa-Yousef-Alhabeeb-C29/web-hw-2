@@ -1,0 +1,181 @@
+body{
+    background-image: url('./img/m2.jpg') ;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+
+} 
+ .li1 {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    color: blanchedalmond;
+    background-color: brown;
+    size: 20px;
+    
+}
+.li2{
+list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    color: blanchedalmond;
+    background-color: brown;
+    size: 20px;
+    margin-left: 50px;
+}
+.li3{
+    list-style-type: none;
+        display: inline-block;
+        padding: 0px 20px;
+        color: blanchedalmond;
+        background-color: brown;
+        size: 20px;
+        margin-left: 60px;
+    }
+    .li4{
+        list-style-type: none;
+            display: inline-block;
+            padding: 0px 20px;
+            color: blanchedalmond;
+            background-color: brown;
+            size: 20px;
+            margin-left: 80px;
+        }
+        .li5{
+            list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+                margin-left: 90px;
+            }
+            .li6 {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+            }
+            .li7 {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+                margin-left: 30px;
+            }
+            .li8 {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+                margin-left: 20px;
+            }
+            .li9 {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+                margin-left: 70px;
+            }
+            .li10 {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px;
+                color: blanchedalmond;
+                background-color: brown;
+                size: 20px;
+                margin-left: 90px;
+            }
+header{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items:center ;
+    padding: 0px ;
+    background-color: darkgray ;
+}
+
+
+img{
+    height: 180px;
+    width: 180px;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+    color: white;
+    text-decoration: none;
+}
+.nav_links li a:hover  {
+    color: teal;
+}
+h3{
+    text-align: center;
+    background-color: red;
+   margin-right: 90%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+
+.dd{
+    position: relative;
+   
+}
+
+.dd ul{
+    position: absolute;
+    background-color: rgb(135, 200, 216);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+    opacity: 0;
+    pointer-events: none;
+    transform:  translateY(-10px);
+    transition: all 0.4s ease;
+}
+.dd a {
+    text-decoration: none;
+    color: black;
+}
+.dd button{
+    background: none;
+    border: none;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dd button:focus + ul {
+    opacity: 1;
+    pointer-events: all;
+}
